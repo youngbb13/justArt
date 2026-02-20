@@ -18,7 +18,8 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    gap: 4rem;
+    justify-content: center;
 }
 
 
@@ -61,4 +62,24 @@ li {
 
 html {
     background-color: bisque;
+}
+
+.text-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #819B57;
+    margin-left: 6.4375rem;
+    margin-right: 5.4375rem;
+    margin-top: 40.3125rem;
+}
+
+
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    color: #FAF4EA;
+    padding: 1rem 7.03125rem;
+    gap: 7rem;
+    font-size: 1.25rem;
 }
