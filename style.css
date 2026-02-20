@@ -11,7 +11,6 @@
     margin-top: 2rem;
     margin-left: 6.4375rem;
     margin-right: 5.4375rem;
-    background-color: blueviolet;
 }
 
 .header-menu {
@@ -26,6 +25,15 @@
 .header-menu li {
     display: block;
     font-size: 1.125rem;
+}
+
+.link {
+    color: #FAF4EA;
+    text-decoration: none;
+}
+
+.first-link {
+    color: #819B57;
 }
 
 .header-nav {
@@ -68,8 +76,6 @@ html {
     display: flex;
     justify-content: center;
     background-color: #819B57;
-    margin-left: 6.4375rem;
-    margin-right: 5.4375rem;
     margin-top: 40.3125rem;
 }
 
