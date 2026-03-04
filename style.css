@@ -1,29 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* ================= HEADER ================= */
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100dvw;
+    width: 100%;
     margin-top: 2rem;
-    margin-left: 6.4375rem;
-    margin-right: 5.4375rem;
+    padding: 0 6rem;
+}
+
+.header-nav {
+    flex: 1;
 }
 
 .header-menu {
     display: flex;
-    width: 100%;
+    justify-content: center;
     align-items: center;
     gap: 4rem;
-    justify-content: center;
 }
 
-
 .header-menu li {
-    display: block;
+    list-style: none;
     font-size: 1.125rem;
 }
 
@@ -36,56 +40,70 @@
     color: #819B57;
 }
 
-.header-nav {
-    flex: 1;
-}
-
-li {
-    list-style-type: none;
-}
-
 .logo {
-    width: 7.125rem;
-    height: 3.5rem;
     display: flex;
     align-items: center;
-    margin-right: 7.125rem;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
+    margin-right: 7rem;
 }
 
 .order-button {
     width: 14.875rem;
     height: 3.6875rem;
-    border: 0.125rem;
+    border: none;
     border-radius: 0.5rem;
     color: #FAF4EA;
     background-color: #819B57;
     font-size: 1.125rem;
-    margin-left: 11.875rem;
+    margin-left: 5rem;
+    cursor: pointer;
 }
 
-html {
-    background-color: bisque;
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("./background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.hero-title {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.hero-title span {
+    color: #819B57;
+}
+
+/* ================= BOTTOM STRIP ================= */
 
 .text-bottom {
     display: flex;
     justify-content: center;
     background-color: #819B57;
-    margin-top: 40.3125rem;
+    padding: 1rem 0;
 }
-
-
 
 .text-container {
     display: flex;
-    justify-content: center;
-    color: #FAF4EA;
-    padding: 1rem 7.03125rem;
     gap: 7rem;
+    color: #FAF4EA;
     font-size: 1.25rem;
+}
+
+.text-container li {
+    list-style: none;
 }
