@@ -119,3 +119,28 @@
 .text-container li {
     list-style: none;
 }
+
+/* ================= MAIN ================= */
+
+main {
+    background-color: #FAF4EA;
+}
+
+.first-block {
+    display: block;
+    min-height: 100vh;
+    margin: 100px 100px;
+    background-color: aqua;
+}
+
+.new-formats {
+    display: flex;
+    background-color: red;
+    min-height: 20px;
+}
+
+.photo-block {
+    display: flex;
+    background-color: blue;
+    min-height: 20px;  
+}
