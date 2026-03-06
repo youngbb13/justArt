@@ -128,9 +128,8 @@ main {
 
 .first-block {
     display: flex;
-    min-height: 50vh;
+    min-height: 70vh;
     margin: 0 100px;
-
 }
 
 .new-formats {
@@ -138,13 +137,16 @@ main {
     background-color: #FAF4EA;
     flex: 1;
     flex-direction: column;
-    
 }
 
 .photo-block {
     display: flex;
-    background-color: blue;
-    flex: 1;  
+    background-color: #FAF4EA;
+    height: 29.125rem;
+    justify-content: start;
+    align-items: center; 
+    margin-top: 6rem;
+    margin-right: 0;
 }
 
 .formats {
@@ -177,3 +179,14 @@ main {
     font-size: 1.125rem;
 }
 
+.rectangle {
+    display: flex;
+    width: 24.5625rem;
+    height: 29.125rem;
+    margin-left: 4.125rem;
+    background-image: url("./rightphoto.png");
+    background-repeat: no-repeat;
+    background-position: 38%;
+    border-top-left-radius: 25rem;
+    border-top-right-radius: 25rem;
+}
