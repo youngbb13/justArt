@@ -128,9 +128,9 @@ main {
 
 .first-block {
     display: flex;
-    min-height: 40vh;
-    margin: 100px 100px;
-    background-color: aqua;
+    min-height: 50vh;
+    margin: 0 100px;
+
 }
 
 .new-formats {
@@ -138,7 +138,7 @@ main {
     background-color: #FAF4EA;
     flex: 1;
     flex-direction: column;
-    gap: 4rem;
+    
 }
 
 .photo-block {
@@ -152,16 +152,28 @@ main {
     align-items: start;
     font-size: 4rem;
     color: rgba(49, 38, 26, 1);
+    margin-top: 6rem;
 }
 
 .second-row {
-    display: flex;
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-top: 2.625rem;
+    margin-bottom: 2.625rem;
+}
+
+.last-row {
     color: rgba(49, 38, 26, 1);
     font-size: 1.125rem;
 }
 
-.last-row {
-    display: flex;
-    color: rgba(49, 38, 26, 1);
+.accent {
+    color: #819B57;
     font-size: 1.125rem;
 }
+
+.second-accent {
+    color: #819B57;
+    font-size: 1.125rem;
+}
+
