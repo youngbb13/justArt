@@ -111,6 +111,7 @@ body {
     justify-content: center;
     background-color: #819B57;
     padding: 1rem 0;
+    z-index: 2;
 }
 
 .text-container {
