@@ -171,13 +171,14 @@ main {
     align-items: start;
     font-size: 4rem;
     color: rgba(49, 38, 26, 1);
+    margin-top: -1rem;
+    letter-spacing: 2.6%;
 }
 
 .second-row {
     color: rgba(49, 38, 26, 1);
     font-size: 1.125rem;
-    margin-top: 2.625rem;
-    
+    margin-top: 2.625rem; 
 }
 
 .second-row-row {
