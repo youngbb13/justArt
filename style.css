@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 /* ================= HEADER ================= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 .header-container {
     display: flex;
@@ -124,12 +128,15 @@
 
 main {
     background-color: #FAF4EA;
+    font-family: 'Poppins', sans-serif;
 }
 
 .first-block {
     display: flex;
     min-height: 70vh;
     margin: 0 100px;
+    min-width: 75.3125rem;
+    margin-right: 8.4375rem;
 }
 
 .new-formats {
@@ -137,6 +144,8 @@ main {
     background-color: #FAF4EA;
     flex: 1;
     flex-direction: column;
+    margin-top: 6rem;
+    height: 29.125rem;
 }
 
 .photo-block {
@@ -154,17 +163,45 @@ main {
     align-items: start;
     font-size: 4rem;
     color: rgba(49, 38, 26, 1);
-    margin-top: 6rem;
+    
+}
+
+.formats-next {
+    display: flex;
+    align-items: start;
+    font-size: 4rem;
+    color: rgba(49, 38, 26, 1);
 }
 
 .second-row {
     color: rgba(49, 38, 26, 1);
     font-size: 1.125rem;
     margin-top: 2.625rem;
+    
+}
+
+.second-row-row {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
     margin-bottom: 2.625rem;
 }
 
 .last-row {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+}
+
+.last-row-one {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+}
+
+.last-row-two {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+}
+
+.last-row-three {
     color: rgba(49, 38, 26, 1);
     font-size: 1.125rem;
 }
@@ -183,7 +220,7 @@ main {
     display: flex;
     width: 24.5625rem;
     height: 29.125rem;
-    margin-left: 4.125rem;
+    margin-left: 6.3125rem;
     background-image: url("./rightphoto.png");
     background-repeat: no-repeat;
     background-position: 38%;
