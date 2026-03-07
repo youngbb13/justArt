@@ -134,7 +134,8 @@ main {
 
 .first-block {
     display: flex;
-    min-height: 70vh;
+    /* min-height: 70vh; */
+    height: 41.125rem;
     margin: 0 100px;
     min-width: 75.3125rem;
     margin-right: 8.4375rem;
@@ -228,4 +229,24 @@ main {
     background-position: 38%;
     border-top-left-radius: 25rem;
     border-top-right-radius: 25rem;
+}
+
+.chefs {
+    min-height: 60vh;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.chefs-title {
+    background-color: #FAF4EA;
+    font-size: 4rem;
+    color: rgba(49, 38, 26, 1);
+    line-height: 5.25rem;
+}
+
+.chefs-title-second {
+    display: flex;
+    color: rgba(70, 89, 41, 1);
+    justify-content: center;
 }
