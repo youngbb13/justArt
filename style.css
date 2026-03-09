@@ -287,3 +287,31 @@ main {
     flex: 1;
     background-color: red;
 }
+
+.photo-left {
+    
+    background-color: #FAF4EA;
+    height: 10rem;
+    justify-content: start;
+    align-items: center; 
+    margin-top: 6rem;
+    margin-right: 0;
+}
+
+.rectangle-left {
+
+    width: 16.75rem;
+    height: 27.8125rem;
+    background-image: url("./nastya.png");
+    background-repeat: no-repeat;
+}
+
+.photo-right {
+    display: flex;
+    background-color: #FAF4EA;
+    height: 10rem;
+    justify-content: start;
+    align-items: center; 
+    margin-top: 6rem;
+    margin-right: 0;
+}
