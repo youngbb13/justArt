@@ -134,7 +134,6 @@ main {
 
 .first-block {
     display: flex;
-    /* min-height: 70vh; */
     height: 41.125rem;
     margin: 0 100px;
     min-width: 75.3125rem;
@@ -232,10 +231,10 @@ main {
 }
 
 .chefs {
-    min-height: 60vh;
     display: flex;
-    background-color: aqua;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
 }
 
 .chefs-title {
@@ -244,10 +243,47 @@ main {
     font-size: 4rem;
     color: rgba(49, 38, 26, 1);
     line-height: 5.25rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.chefs-title-second::before,
+.chefs-title-second::after {
+    content: "";
+    background-color: rgba(207, 207, 188, 1);
+    height: 2px;
+    width: 22rem;
+}
+
+.chefs-title-second::before {
+    transform: translateX(-3rem) translateY(4rem);
+}
+
+.chefs-title-second::after {
+    transform: translateX(3rem) translateY(4rem);
 }
 
 .chefs-title-second {
     display: flex;
     color: rgba(70, 89, 41, 1);
     justify-content: center;
+}
+
+.chefs-row {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+}
+
+.chef-left {
+    display: flex;
+    flex: 1;
+    background-color: blue;
+}
+
+.chef-right {
+    display: flex;
+    flex: 1;
+    background-color: red;
 }
