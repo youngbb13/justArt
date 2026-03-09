@@ -282,6 +282,16 @@ main {
     background-color: blue;
 }
 
+.chef-title-left {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.chef-about-left-first {
+    display: flex;
+    
+}
+
 .chef-right {
     display: flex;
     flex: 1;
@@ -289,8 +299,7 @@ main {
 }
 
 .photo-left {
-    
-    background-color: #FAF4EA;
+    display: flex;
     height: 10rem;
     justify-content: start;
     align-items: center; 
@@ -299,7 +308,7 @@ main {
 }
 
 .rectangle-left {
-
+    display: flex;
     width: 16.75rem;
     height: 27.8125rem;
     background-image: url("./nastya.png");
@@ -314,4 +323,12 @@ main {
     align-items: center; 
     margin-top: 6rem;
     margin-right: 0;
+}
+
+.rectangle-right {
+    display: flex;
+    width: 16.75rem;
+    height: 27.8125rem;
+    background-image: url("./vlad.png");
+    background-repeat: no-repeat;
 }
