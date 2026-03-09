@@ -279,17 +279,47 @@ main {
 .chef-left {
     display: flex;
     flex: 1;
-    background-color: blue;
+    background-color:#FAF4EA;
 }
 
 .chef-title-left {
     display: flex;
     margin-left: 1rem;
+    font-size: 2.5rem;
+    color: rgba(49, 38, 26, 1);
+    margin-bottom: 1rem;
 }
 
 .chef-about-left-first {
-    display: flex;
-    
+    color: rgba(49, 38, 26, 1); 
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chef-about-left-second {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.chef-about-left-second-row {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chef-about-left-third {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.chef-about-left-third-row {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
 }
 
 .chef-right {
@@ -301,7 +331,7 @@ main {
 .photo-left {
     display: flex;
     height: 10rem;
-    justify-content: start;
+    justify-content: center;
     align-items: center; 
     margin-top: 6rem;
     margin-right: 0;
@@ -313,11 +343,16 @@ main {
     height: 27.8125rem;
     background-image: url("./nastya.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 12.5rem;
 }
 
 .photo-right {
     display: flex;
-    background-color: #FAF4EA;
     height: 10rem;
     justify-content: start;
     align-items: center; 
@@ -331,4 +366,10 @@ main {
     height: 27.8125rem;
     background-image: url("./vlad.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 12.5rem;
 }
