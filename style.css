@@ -274,11 +274,12 @@ main {
     display: flex;
     width: 100%;
     height: 40rem;
+    justify-content: space-evenly;
 }
 
 .chef-left {
     display: flex;
-    flex: 1;
+    
     background-color:#FAF4EA;
 }
 
@@ -324,8 +325,60 @@ main {
 
 .chef-right {
     display: flex;
-    flex: 1;
-    background-color: red;
+    
+    background-color:#FAF4EA;
+}
+
+.chef-title-right {
+    display: flex;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    color: rgba(49, 38, 26, 1);
+    margin-bottom: 1rem;
+}
+
+.chef-about-right-first {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chef-about-right-second {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.chef-about-right-second-row {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.chef-about-right-second-row-first {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.chef-about-right-second-row-second {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chef-about-right-third {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.chef-about-right-third-row {
+    color: rgba(49, 38, 26, 1);
+    font-size: 1.125rem;
+    margin-left: 1rem;
 }
 
 .photo-left {
