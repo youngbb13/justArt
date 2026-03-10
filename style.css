@@ -383,11 +383,18 @@ main {
 
 .photo-left {
     display: flex;
-    height: 10rem;
+    height: 28rem;
     justify-content: center;
     align-items: center; 
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-right: 0;
+    background-color: transparent;
+    border: 2px solid rgba(161, 130, 104, 1);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 12.5rem;
+    transform: translateX(-1rem) translateY(1rem);
 }
 
 .rectangle-left {
@@ -402,15 +409,23 @@ main {
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 12.5rem;
+    transform: translateX(1rem) translateY(-1rem);
 }
 
 .photo-right {
     display: flex;
-    height: 10rem;
-    justify-content: start;
+    height: 28rem;
+    justify-content: center;
     align-items: center; 
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-right: 0;
+    background-color: transparent;
+    border: 2px solid rgba(161, 130, 104, 1);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 12.5rem;
+    transform: translateX(-1rem) translateY(1rem);
 }
 
 .rectangle-right {
@@ -425,4 +440,15 @@ main {
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 12.5rem;
+    transform: translateX(1rem) translateY(-1rem);
+}
+
+.about-left-chef {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.about-right-chef {
+    margin-top: 5rem;
+    margin-left: 1rem;
 }
