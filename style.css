@@ -452,3 +452,62 @@ main {
     margin-top: 5rem;
     margin-left: 1rem;
 }
+
+/* ================= MAIN ================= */
+
+.formats-main {
+    display: block;
+    height: 50rem;
+    background-color: chocolate;
+}
+
+.formats-title {
+    display: flex;
+    background-color: red;
+    height: 10rem;
+}
+
+.formats-container {
+    display: flex;
+    flex: 1;
+    background-color: yellow;
+    height: 35rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-left {
+    display: flex;
+    width: 5rem;
+    background-color: blue;
+    height: 5rem;
+}
+
+.first-format {
+    display: flex;
+    width: 20rem;
+    background-color: blue;
+    height: 30rem;
+}
+
+.second-format {
+    display: flex;
+    width: 20rem;
+    background-color: blue;
+    height: 30rem;
+}
+
+.third-format {
+    display: flex;
+    width: 20rem;
+    background-color: blue;
+    height: 30rem;
+}
+
+.arrow-right {
+    display: flex;
+    width: 5rem;
+    background-color: blue;
+    height: 5rem;
+}
