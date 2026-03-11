@@ -490,23 +490,59 @@ main {
 
 .first-format {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 21.8125rem;
     background-color: blue;
     height: 27.75rem;
+    border-radius: 1rem;
+    background: linear-gradient(
+        to top,
+        rgba(49, 38, 26, 1) 0%,
+        rgba(49, 38, 26, 0.71) 50%,
+        rgba(49, 38, 26, 0) 100%
+    ),
+    url(./puri1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .second-format {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 21.8125rem;
-    background-color: blue;
+    background-color: transparent;
     height: 27.75rem;
+    background: linear-gradient(
+        to top,
+        rgba(49, 38, 26, 1) 0%,
+        rgba(49, 38, 26, 0.71) 50%,
+        rgba(49, 38, 26, 0) 100%
+    ),
+    url(./puri2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
 }
 
 .third-format {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 21.8125rem;
-    background-color: blue;
+    background-color: transparent;
     height: 27.75rem;
+    background: linear-gradient(
+        to top,
+        rgba(49, 38, 26, 1) 0%,
+        rgba(49, 38, 26, 0.71) 50%,
+        rgba(49, 38, 26, 0) 100%
+    ),
+    url(./puri3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
 }
 
 .arrow-right {
@@ -520,4 +556,79 @@ main {
     display: flex;
     background-color: aquamarine;
     height: 5.6875rem;
+}
+
+.walrus {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(250, 244, 234, 1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.walrus-text {
+    margin-left: 1.5rem;
+    font-size: 0.875rem;
+    color: rgba(250, 244, 234, 1);
+    font-weight:300;
+}
+
+.walrus-last {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: rgba(250, 244, 234, 1);
+    font-weight: 300;    
+}
+
+.horsehoe {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(250, 244, 234, 1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.horsehoe-text {
+    margin-left: 1.5rem;
+    font-size: 0.875rem;
+    color: rgba(250, 244, 234, 1);
+    font-weight:300;
+}
+
+.horsehoe-last {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: rgba(250, 244, 234, 1);
+    font-weight: 300;    
+}
+
+.handlebar {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(250, 244, 234, 1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.handlebar-text {
+    margin-left: 1.5rem;
+    font-size: 0.875rem;
+    color: rgba(250, 244, 234, 1);
+    font-weight:300;
+}
+
+.handlebar-last {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: rgba(250, 244, 234, 1);
+    font-weight: 300;    
 }
