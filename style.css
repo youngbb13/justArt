@@ -325,7 +325,6 @@ main {
 
 .chef-right {
     display: flex;
-    
     background-color:#FAF4EA;
 }
 
@@ -458,19 +457,24 @@ main {
 .formats-main {
     display: block;
     height: 40.6875rem;
-    background-color: chocolate;
+    background-color: transparent;
 }
 
 .formats-title {
     display: flex;
-    background-color: red;
+    background-color: transparent;
     height: 5rem;
+    justify-content: center;
+    font-size: 4rem;
+    color: rgba(49, 38, 26, 1);
+    margin-bottom: 4rem;
+    margin-top: -2rem;
 }
 
 .formats-container {
     display: flex;
     flex: 1;
-    background-color: yellow;
+    background-color: transparent;
     height: 30rem;
     gap: 1rem;
     align-items: center;
