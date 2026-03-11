@@ -457,21 +457,21 @@ main {
 
 .formats-main {
     display: block;
-    height: 50rem;
+    height: 40.6875rem;
     background-color: chocolate;
 }
 
 .formats-title {
     display: flex;
     background-color: red;
-    height: 10rem;
+    height: 5rem;
 }
 
 .formats-container {
     display: flex;
     flex: 1;
     background-color: yellow;
-    height: 35rem;
+    height: 30rem;
     gap: 1rem;
     align-items: center;
     justify-content: center;
@@ -479,35 +479,41 @@ main {
 
 .arrow-left {
     display: flex;
-    width: 5rem;
+    width: 2.75rem;
     background-color: blue;
-    height: 5rem;
+    height: 2.75rem;
 }
 
 .first-format {
     display: flex;
-    width: 20rem;
+    width: 21.8125rem;
     background-color: blue;
-    height: 30rem;
+    height: 27.75rem;
 }
 
 .second-format {
     display: flex;
-    width: 20rem;
+    width: 21.8125rem;
     background-color: blue;
-    height: 30rem;
+    height: 27.75rem;
 }
 
 .third-format {
     display: flex;
-    width: 20rem;
+    width: 21.8125rem;
     background-color: blue;
-    height: 30rem;
+    height: 27.75rem;
 }
 
 .arrow-right {
     display: flex;
-    width: 5rem;
+    width: 2.75rem;
     background-color: blue;
-    height: 5rem;
+    height: 2.75rem;
+}
+
+.dots {
+    display: flex;
+    background-color: aquamarine;
+    height: 5.6875rem;
 }
