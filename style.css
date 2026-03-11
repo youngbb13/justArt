@@ -476,7 +476,7 @@ main {
     flex: 1;
     background-color: transparent;
     height: 30rem;
-    gap: 1rem;
+    gap: 1.25rem;
     align-items: center;
     justify-content: center;
 }
