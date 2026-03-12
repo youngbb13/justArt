@@ -585,8 +585,46 @@ main {
 
 .dots {
     display: flex;
-    background-color: aquamarine;
-    height: 5.6875rem;
+    background-color: transparent;
+    height: 1.6875rem;
+    justify-content: center;
+    align-items: end;
+}
+
+.dots-nav {
+    display: flex;
+    width: 7.5625rem;
+    height: 0.6875rem;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.first-dot {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    background-color: rgba(115, 131, 90, 1);
+    border-radius: 50%;
+}
+
+.second-dot {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    background-color: rgba(161, 130, 104, 1);
+    border-radius: 50%;
+}
+
+.third-dot {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    background-color: rgba(161, 130, 104, 1);
+    border-radius: 50%;
+}
+
+.fourth-dot {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    background-color: rgba(161, 130, 104, 1);
+    border-radius: 50%;
 }
 
 .walrus {
