@@ -484,8 +484,23 @@ main {
 .arrow-left {
     display: flex;
     width: 2.75rem;
-    background-color: blue;
+    background-color: transparent;
     height: 2.75rem;
+    background-image: url(./Arrow1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.77px solid rgba(49, 38, 26, 1);
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.arrow-left:active {
+    background-image: url(./Arrow-active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.77px solid rgba(49, 38, 26, 1);
+    background-color:rgba(49, 38, 26, 1);
 }
 
 .first-format {
@@ -548,8 +563,24 @@ main {
 .arrow-right {
     display: flex;
     width: 2.75rem;
-    background-color: blue;
+    background-color: transparent;
     height: 2.75rem;
+    background-image: url(./Arrow1.svg);
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.77px solid rgba(49, 38, 26, 1);
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.arrow-right:active {
+    background-image: url(./Arrow-active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.77px solid rgba(49, 38, 26, 1);
+    background-color:rgba(49, 38, 26, 1);
 }
 
 .dots {
