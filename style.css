@@ -803,3 +803,74 @@ input:focus {
     outline: none;
     text-decoration: underline;
 }
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6.25rem;
+    height: 14.6875rem;
+    background-color: rgba(49, 38, 26, 1);
+}
+
+.footer-nav {
+    height: 10.6875rem;
+}
+
+.nav-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    color: rgba(250, 244, 234, 1);
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(250, 244, 234, 1);
+    font-size: 1.125rem;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: rgba(250, 244, 234, 1);
+}
+
+.country {
+    margin-bottom: -1rem;
+}
+
+.socials {
+    display: flex;
+    gap: 1.375rem;
+}
+
+.facebook-logo {
+    background-image: url(./facebook-icon.png);
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+}
+
+.instagram-logo {
+    background-image: url(./instagram-icon.png);
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+}
+
+.policy-conf {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: rgba(250, 244, 234, 1);
+}
+
+.data-secured {
+    color: rgba(161, 130, 104, 1);
+    font-size: 0.875rem;
+}
